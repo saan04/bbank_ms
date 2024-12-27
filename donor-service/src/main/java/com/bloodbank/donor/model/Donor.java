@@ -49,9 +49,9 @@ public class Donor {
     private LocalDate lastDonationDate;
 
     @Min(value = 0, message = "Number of donations cannot be negative")
-    @Column(name = "donation_count", nullable = false)
+    @Column(name = "donation_count")
     private Integer donationCount = 0;
 
-    @Column(name = "eligible", nullable = false)
+    @Column(name = "eligible")
     private Boolean eligible = true;
 }

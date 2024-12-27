@@ -1,5 +1,6 @@
 com/bloodbank/donor/repository/DonorRepository.class
 com/bloodbank/donor/service/DonorService.class
+com/bloodbank/donor/exception/GlobalExceptionHandler.class
 com/bloodbank/donor/DonorServiceApplication.class
 com/bloodbank/donor/controller/DonorController.class
 com/bloodbank/donor/model/Donor.class

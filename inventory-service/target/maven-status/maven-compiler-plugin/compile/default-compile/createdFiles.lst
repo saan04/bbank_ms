@@ -1,5 +1,6 @@
 com/bloodbank/inventory/service/BloodInventoryService$1.class
 com/bloodbank/inventory/InventoryServiceApplication.class
+com/bloodbank/inventory/exception/GlobalExceptionHandler.class
 com/bloodbank/inventory/model/BloodInventory.class
 com/bloodbank/inventory/controller/BloodInventoryController.class
 com/bloodbank/inventory/model/BloodTransaction$TransactionType.class

@@ -2,6 +2,7 @@
 /Users/saanvinair/CascadeProjects/blood-bank-system/inventory-service/src/main/java/com/bloodbank/inventory/repository/BloodTransactionRepository.java
 /Users/saanvinair/CascadeProjects/blood-bank-system/inventory-service/src/main/java/com/bloodbank/inventory/InventoryServiceApplication.java
 /Users/saanvinair/CascadeProjects/blood-bank-system/inventory-service/src/main/java/com/bloodbank/inventory/repository/BloodInventoryRepository.java
+/Users/saanvinair/CascadeProjects/blood-bank-system/inventory-service/src/main/java/com/bloodbank/inventory/exception/GlobalExceptionHandler.java
 /Users/saanvinair/CascadeProjects/blood-bank-system/inventory-service/src/main/java/com/bloodbank/inventory/model/BloodInventory.java
 /Users/saanvinair/CascadeProjects/blood-bank-system/inventory-service/src/main/java/com/bloodbank/inventory/controller/BloodInventoryController.java
 /Users/saanvinair/CascadeProjects/blood-bank-system/inventory-service/src/main/java/com/bloodbank/inventory/model/BloodTransaction.java

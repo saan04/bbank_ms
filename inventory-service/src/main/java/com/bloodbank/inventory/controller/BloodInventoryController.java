@@ -27,7 +27,7 @@ public class BloodInventoryController {
     }
 
     @GetMapping("/{bloodGroup}")
-    public ResponseEntity<BloodInventory> getInventoryByBloodGroup(@PathVariable String bloodGroup) {
+    public ResponseEntity<BloodInventory> getInventoryByBloodGroup(@PathVariable("bloodGroup") String bloodGroup) {
         return ResponseEntity.ok(inventoryService.getInventoryByBloodGroup(bloodGroup));
     }
 
@@ -38,7 +38,7 @@ public class BloodInventoryController {
 
     @PostMapping("/{bloodGroup}/donate")
     public ResponseEntity<BloodInventory> addDonation(
-            @PathVariable String bloodGroup,
+            @PathVariable("bloodGroup") String bloodGroup,
             @RequestBody Map<String, Integer> request) {
         return ResponseEntity.ok(inventoryService.updateInventory(
                 bloodGroup,
@@ -48,7 +48,7 @@ public class BloodInventoryController {
 
     @PostMapping("/{bloodGroup}/request")
     public ResponseEntity<BloodInventory> processRequest(
-            @PathVariable String bloodGroup,
+            @PathVariable("bloodGroup") String bloodGroup,
             @RequestBody Map<String, Integer> request) {
         return ResponseEntity.ok(inventoryService.updateInventory(
                 bloodGroup,
@@ -70,13 +70,13 @@ public class BloodInventoryController {
 
     @GetMapping("/transactions/type/{type}")
     public ResponseEntity<List<BloodTransaction>> getTransactionsByType(
-            @PathVariable BloodTransaction.TransactionType type) {
+            @PathVariable("type") BloodTransaction.TransactionType type) {
         return ResponseEntity.ok(inventoryService.getTransactionsByType(type));
     }
 
     @GetMapping("/{bloodGroup}/check")
     public ResponseEntity<Boolean> checkAvailability(
-            @PathVariable String bloodGroup,
+            @PathVariable("bloodGroup") String bloodGroup,
             @RequestParam int quantity) {
         return ResponseEntity.ok(inventoryService.checkAvailability(bloodGroup, quantity));
     }
