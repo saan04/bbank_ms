@@ -21,7 +21,7 @@ The system consists of three main microservices and a gateway service:
    - Processes request fulfillment
    - Tracks request status
 
-4. **API Gateway** (Port: 8080)
+4. **API Gateway** (Port: 8085)
    - Single entry point for all client requests
    - Routes requests to appropriate services
    - Handles load balancing
@@ -79,4 +79,4 @@ blood-bank-system/
 - GET /api/requests/{id} - Get request status
 - PUT /api/requests/{id} - Update request status
 
-All endpoints are accessible through the API Gateway at http://localhost:8080
+All endpoints are accessible through the API Gateway at http://localhost:8085
