@@ -1,0 +1,9 @@
+com/bloodbank/inventory/model/BloodInventory.class
+com/bloodbank/inventory/controller/BloodInventoryController.class
+com/bloodbank/inventory/model/InventoryStatus.class
+com/bloodbank/inventory/BloodInventoryServiceApplication.class
+com/bloodbank/inventory/model/BloodTransaction.class
+com/bloodbank/inventory/service/BloodInventoryService.class
+com/bloodbank/inventory/repository/BloodInventoryRepository.class
+com/bloodbank/inventory/repository/BloodTransactionRepository.class
+com/bloodbank/inventory/model/TransactionType.class

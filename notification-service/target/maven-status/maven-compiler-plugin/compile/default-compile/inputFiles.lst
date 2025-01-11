@@ -1,0 +1,9 @@
+/Users/saanvinair/cascade-project/notification-service/src/main/java/com/bloodbank/notification/service/NotificationService.java
+/Users/saanvinair/cascade-project/notification-service/src/main/java/com/bloodbank/notification/service/EmailService.java
+/Users/saanvinair/cascade-project/notification-service/src/main/java/com/bloodbank/notification/controller/NotificationController.java
+/Users/saanvinair/cascade-project/notification-service/src/main/java/com/bloodbank/notification/repository/NotificationRepository.java
+/Users/saanvinair/cascade-project/notification-service/src/main/java/com/bloodbank/notification/dto/NotificationRequest.java
+/Users/saanvinair/cascade-project/notification-service/src/main/java/com/bloodbank/notification/NotificationServiceApplication.java
+/Users/saanvinair/cascade-project/notification-service/src/main/java/com/bloodbank/notification/model/Notification.java
+/Users/saanvinair/cascade-project/notification-service/src/main/java/com/bloodbank/notification/model/NotificationType.java
+/Users/saanvinair/cascade-project/notification-service/src/main/java/com/bloodbank/notification/model/NotificationStatus.java
